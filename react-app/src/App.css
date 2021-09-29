@@ -35,13 +35,13 @@ li a:hover {
 }
 
 .bolsa2 {
-  background-image: url("../img/bolsa2.png");
+  /* background-image: url("../img/bolsa2.png"); */
   height: 16px;
   width: 8px;
   background-repeat: no-repeat;
 }
 .bolsa2:hover {
-  background-image: url("../img/bolsa.png");
+  /* background-image: url("../img/bolsa.png"); */
   height: 16px;
   width: 8px;
   background-repeat: no-repeat;
