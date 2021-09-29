@@ -17,7 +17,7 @@ const NavBar = (props) => {
                     <li><a href="ligas.html">LIGAS</a></li>
                     <li><a href="tiendas.html">NUESTRAS TIENDAS</a></li>
                     <li><a href="login.html">INICIAR SESION</a></li>
-                    <li><a href="compra.html" class="bolsa2"></a></li>
+                    <li><a href="compra.html" className="bolsa2"></a></li>
                 </ul>
             </nav>
         </div>
