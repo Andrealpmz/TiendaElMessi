@@ -144,3 +144,17 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
+.mapa{
+  
+  text-align-last: center;
+}
+
+.ver{
+  background-color: #5492E4;
+}
+
+.ver a:hover{
+  color: #ffff;
+  background-color: #5492E4;
+}
