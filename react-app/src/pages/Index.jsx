@@ -1,10 +1,13 @@
 import React from "react"
-import NavBar from "../components/NavBar"
+import Featured from "../components/Featured";
+import ImageBanner from "../components/ImageBanner";
+
 
 const Index = () => {
-    return(
+    return (
         <div>
-            <NavBar/>
+            <ImageBanner />
+            <Featured />
         </div>
     )
 }

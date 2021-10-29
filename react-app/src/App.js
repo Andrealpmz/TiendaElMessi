@@ -1,15 +1,18 @@
-import Index from './pages/Index';
-import ImageBanner from './components/ImageBanner';
-import './App.css';
-import Featured from './components/Featured';
+import Index from "./pages/Index";
+import "./App.css";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
-    <div className="App">
-      <Index/>
-      <ImageBanner/>
-      <Featured/>
-    </div>
+    <Router>
+      <NavBar />
+      <Switch>
+        <Route path="/">
+          <Index />
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 

@@ -1,26 +1,27 @@
 import React from "react";
 import logo from "../img/logo-nav-2.png"
+import { Link } from "react-router-dom"
 
 const NavBar = (props) => {
     return (
-        <div>
-            <nav>
-                <a href="index.html">
-                    <img src={logo} alt="" style={{display : "flex", margin: "10%"}} height="22" width="120" />
-                </a>
-                <ul>
 
-                    <li><a href="index.html">INICIO</a></li>
-                    <li><a href="hombre.html">HOMBRE</a></li>
-                    <li><a href="mujer.html">MUJER</a></li>
-                    <li><a href="selecciones.html">SELECCIONES</a></li>
-                    <li><a href="ligas.html">LIGAS</a></li>
-                    <li><a href="tiendas.html">NUESTRAS TIENDAS</a></li>
-                    <li><a href="login.html">INICIAR SESION</a></li>
-                    <li><a href="compra.html" className="bolsa2"></a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <Link to="index.html">
+                <img src={logo} alt="" style={{ display: "flex", margin: "10%" }} height="22" width="120" />
+            </Link>
+            <ul>
+
+                <li><Link to="/">INICIO</Link></li>
+                <li><Link to="/hombre">HOMBRE</Link></li>
+                <li><Link to="/mujer">MUJER</Link></li>
+                <li><Link to="/selecciones">SELECCIONES</Link></li>
+                <li><Link to="/ligas">LIGAS</Link></li>
+                <li><Link to="/tiendas">NUESTRAS TIENDAS</Link></li>
+                <li><Link to="/login">INICIAR SESION</Link></li>
+                <li><Link to="/compra" className="bolsa2"></Link></li>
+            </ul>
+        </nav>
+
     )
 }
 
