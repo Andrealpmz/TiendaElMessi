@@ -109,6 +109,7 @@ h4 {
 h2 {
   text-align: unset;
   margin-top: auto;
+  color: #fff;
 }
 
 .img-button {
@@ -157,4 +158,18 @@ h2 {
 .ver a:hover{
   color: #ffff;
   background-color: #5492E4;
+}
+
+.banner-img{
+  text-align: center;
+}
+
+.item-card{
+  text-align: center;
+}
+
+.nav3{
+  margin-top: 1%;
+  color: aliceblue;
+  background-color: #bcc2cb;
 }
