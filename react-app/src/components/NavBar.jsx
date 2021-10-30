@@ -6,7 +6,7 @@ const NavBar = (props) => {
     return (
 
         <nav>
-            <Link to="index.html">
+            <Link to="/">
                 <img src={logo} alt="" style={{ display: "flex", margin: "10%" }} height="22" width="120" />
             </Link>
             <ul>
