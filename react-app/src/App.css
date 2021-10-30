@@ -106,6 +106,7 @@ h4 {
 h2 {
   text-align: unset;
   margin-top: auto;
+  color: #fff;
 }
 
 .img-button {
@@ -131,4 +132,40 @@ h2 {
 
 .box-redes {
   align-content: center;
+}
+
+/* .img-nav{
+  display: flex;
+  justify-content: center;
+} */
+.banner {
+  display: flex;
+  justify-content: center;
+}
+
+.mapa {
+  text-align-last: center;
+}
+
+.ver {
+  background-color: #5492e4;
+}
+
+.ver a:hover {
+  color: #ffff;
+  background-color: #5492e4;
+}
+
+.banner-img {
+  text-align: center;
+}
+
+.item-card {
+  text-align: center;
+}
+
+.nav3 {
+  margin-top: 1%;
+  color: aliceblue;
+  background-color: #bcc2cb;
 }
