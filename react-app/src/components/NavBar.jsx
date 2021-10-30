@@ -15,7 +15,6 @@ const NavBar = (props) => {
                 <li><Link to="/hombre">HOMBRE</Link></li>
                 <li><Link to="/mujer">MUJER</Link></li>
                 <li><Link to="/selecciones">SELECCIONES</Link></li>
-                <li><Link to="/ligas">LIGAS</Link></li>
                 <li><Link to="/tiendas">NUESTRAS TIENDAS</Link></li>
                 <li><Link to="/login">INICIAR SESION</Link></li>
                 <li><Link to="/compra" className="bolsa2"></Link></li>

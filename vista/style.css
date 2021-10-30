@@ -3,7 +3,6 @@ body {
   padding: 0;
   background-color: rgb(217, 228, 233);
   font-family: "Courier New", Courier, monospace;
-  
 }
 
 nav {
@@ -15,13 +14,11 @@ nav {
   height: 46px;
   display: flex;
   align-items: center;
-  
 }
 
 li {
   float: left;
   display: flex;
-  
 }
 
 li a {
@@ -141,34 +138,33 @@ h2 {
   display: flex;
   justify-content: center;
 } */
-.banner{  
+.banner {
   display: flex;
   justify-content: center;
 }
 
-.mapa{
-  
+.mapa {
   text-align-last: center;
 }
 
-.ver{
-  background-color: #5492E4;
+.ver {
+  background-color: #5492e4;
 }
 
-.ver a:hover{
+.ver a:hover {
   color: #ffff;
-  background-color: #5492E4;
+  background-color: #5492e4;
 }
 
-.banner-img{
+.banner-img {
   text-align: center;
 }
 
-.item-card{
+.item-card {
   text-align: center;
 }
 
-.nav3{
+.nav3 {
   margin-top: 1%;
   color: aliceblue;
   background-color: #bcc2cb;

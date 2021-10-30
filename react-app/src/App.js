@@ -5,7 +5,6 @@ import NavBar from "./components/NavBar";
 import Hombres from "./pages/Hombres";
 import Mujer from "./pages/Mujer";
 import Selecciones from "./pages/Selecciones";
-import Ligas from "./pages/Ligas";
 import Tiendas from "./pages/Tiendas";
 import Login from "./pages/Login";
 import Compra from "./pages/Compra";
@@ -23,9 +22,6 @@ function App() {
         </Route>
         <Route path="/selecciones">
           <Selecciones />
-        </Route>
-        <Route path="/ligas">
-          <Ligas />
         </Route>
         <Route path="/tiendas">
           <Tiendas />
