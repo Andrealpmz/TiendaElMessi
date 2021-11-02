@@ -5,7 +5,7 @@ const productSchema = new Schema({
   title: String,
   price: Number,
   description: String,
-  Stock: Number,
+  stock: Number,
 });
 
-mongoose.model("productSchema", productSchema);
+export default mongoose.model("productSchema", productSchema);
