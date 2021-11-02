@@ -9,6 +9,7 @@ const ProductCard = (props) => {
                     <p style={{ textAlign: "center" }}>{props.name}</p>
                     <h4> {`Precio: ${props.price}`}</h4>
                     <div className="vista-rapida">Vista rápida</div>
+                    <div className="vista-rapida">Agregar al carrito</div>
                 </div>
             </div>
         </div>
