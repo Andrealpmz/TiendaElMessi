@@ -1,7 +1,10 @@
 const express = require("express");
 const app = express();
 
-app.use("/", (req, res) => {
+import { connectDB } from "./database";
+
+app.get("/", (req, res) => {
+  connectDB();
   res.send("workingo");
 });
 
