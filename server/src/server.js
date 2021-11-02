@@ -11,9 +11,9 @@ app.post("/addproduct", (req, res) => {
 
   const product = productModel(response);
 
-  req.header;
+  product.save();
 
-  res.send(product);
+  res.send("File sent" + product);
 });
 
 app.get("/product", async (req, res) => {
