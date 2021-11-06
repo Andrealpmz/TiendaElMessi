@@ -169,3 +169,105 @@ h2 {
   color: aliceblue;
   background-color: #bcc2cb;
 }
+
+/* ---------------PREVISUALIZACION----------- */
+
+.container-pre {
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  width: 520px;
+  height: 350px;
+  background: white;
+  box-shadow: 5px 5px 15px rgba(pink, .5);
+  border-radius: 10px;
+}
+
+p {
+  font-size: 0.6em;
+  color: black;
+  letter-spacing: 1px;
+  
+}
+
+h1 {
+  font-size: 1.2em;
+  color: black;
+  margin-top: -5px;
+}
+
+h2 {
+  color: black;
+  margin-top: -5px;
+}
+
+.images-pre {
+  margin-top: 25px;
+  margin-left: 5%;
+}
+
+.product-pre{
+  position: absolute;
+  width: 40%;
+  height: 100%;
+  top: 16%;
+  left: 56%;
+}
+
+.desc-pre {
+  text-transform: none;
+  letter-spacing: 0;
+  margin-bottom: 17px;
+  color: black;
+  font-size: .7em;
+  line-height: 1.6em;
+  margin-right: 25px;
+  text-align: justify;
+}
+
+.si, .add{
+  background: darken(white, 10%);
+  padding: 10px;
+  display: inline-block;
+  outline: 0;
+  border: 0;
+  margin: -1px;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: gray;
+  cursor: pointer;
+}
+
+  .si:hover, .add:hover {
+   background-color:  rgb(84, 146, 228);
+   color: white;
+  }
+
+
+.sizes {
+    
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: gray;
+    cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 30px);
+  width: 60%;
+  grid-gap: 4px;
+  margin-left: 80px;
+  margin-top: 5px;
+}
+  sizes:hover {
+    cursor: pointer;
+    background-color:  rgb(84, 146, 228);
+    color: white;
+  }
+
+
+.pick {
+  margin-top: 11px;
+  margin-bottom:0;
+  margin-left: 98px;
+}
