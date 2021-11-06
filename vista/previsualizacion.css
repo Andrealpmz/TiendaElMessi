@@ -13,7 +13,7 @@ body {
   text-transform: uppercase;
 }
 
-.container {
+.container-pre {
   position: relative;
   margin: auto;
   overflow: hidden;
@@ -42,12 +42,12 @@ h2 {
   margin-top: -5px;
 }
 
-img {
+.images-pre {
   margin-top: 25px;
   margin-left: 5%;
 }
 
-.product {
+.product-pre{
   position: absolute;
   width: 40%;
   height: 100%;
@@ -55,7 +55,7 @@ img {
   left: 56%;
 }
 
-.desc {
+.desc-pre {
   text-transform: none;
   letter-spacing: 0;
   margin-bottom: 17px;
@@ -66,7 +66,7 @@ img {
   text-align: justify;
 }
 
-button {
+.si, .add{
   background: darken(white, 10%);
   padding: 10px;
   display: inline-block;
@@ -80,7 +80,7 @@ button {
   cursor: pointer;
 }
 
-  button:hover {
+  .si:hover, .add:hover {
    background-color:  rgb(84, 146, 228);
    color: white;
   }
@@ -111,7 +111,4 @@ button {
   margin-top: 11px;
   margin-bottom:0;
   margin-left: 98px;
-}
-.conS{
-    margin-left: 7%;
 }
