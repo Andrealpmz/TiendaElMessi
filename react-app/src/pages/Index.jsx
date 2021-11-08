@@ -4,6 +4,7 @@ import ImageBanner from "../components/ImageBanner";
 
 
 const Index = () => {
+
     return (
         <div>
             <ImageBanner />
