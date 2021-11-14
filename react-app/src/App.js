@@ -8,6 +8,12 @@ import Selecciones from "./pages/Selecciones";
 import Tiendas from "./pages/Tiendas";
 import Login from "./pages/Login";
 import Compra from "./pages/Compra";
+import Registro from "./pages/Registro";
+import Contrasenia from "./pages/Contrasenia";
+import LoginAdmin from "./pages/LoginAdmin";
+import IndexAdmin from "./pages/IndexAdmin";
+import Productos from "./pages/Productos";
+import Eliminar from "./pages/EliminarP";
 
 function App() {
   return (
@@ -28,6 +34,24 @@ function App() {
         </Route>
         <Route path="/login">
           <Login />
+          </Route>
+        <Route path="/registro">
+          <Registro/>
+        </Route>
+        <Route path="/contrasenia">
+          <Contrasenia/>
+        </Route>
+        <Route path="/loginadmin">
+          <LoginAdmin/>
+        </Route>
+        <Route path="/indexadmin">
+          <IndexAdmin/>
+        </Route>
+        <Route path="/productos">
+          <Productos/>
+        </Route>
+        <Route path="/eliminar">
+          <Eliminar/>
         </Route>
         <Route path="/compra">
           <Compra />
