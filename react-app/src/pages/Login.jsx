@@ -18,7 +18,6 @@ export default function Login() {
                         <p className="message">Olvidaste tu contraseña? <Link to="/Contrasenia">Actualiza tu contraseña</Link></p>
                         <p className="message">Eres administrado? <Link to="/LoginAdmin">Ingresa como administrador</Link></p>
                     </form> 
-
                 </div>
             </div>
         </div>
